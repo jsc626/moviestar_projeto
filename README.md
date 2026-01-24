@@ -60,7 +60,7 @@ Cada pasta e arquivo possui uma função específica dentro do sistema, sendo re
 
 ---
 
-## 🛠️ Tecnologias que Serão Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 * PHP
 * HTML
