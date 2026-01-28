@@ -12,9 +12,13 @@
 
   $userData = $userDao->verifyToken(true);
 
-  
-  $userMovies = $movieDao->getMoviesByUserId($userData->id);
+   if($userData && isset($userData->$id)){
 
+    $userMovies = $movieDao->getMoviesByUserId($userData->id);
+
+  } else{
+    $userMovies =  [];
+  }
 ?>
   <div id="main-container" class="container-fluid">
     <h2 class="section-title">Dashboard</h2>
